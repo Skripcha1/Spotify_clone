@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+    <link rel="stylesheet" href="/build/css/style.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body class="min-h-screen bg-slate-50 font-sans">
+    <header class="sticky top-0 h-16 bg-black">
+      <section class="mx-auto flex items-center">
+        <a class="mx-9 mt-5 flex w-20" href="#hero">
+          <img src="/img/Spotify_Logo_RGB_White.png" alt="Spotify logo" />
+        </a>
+        <div>
+          <button
+            type="button"
+            id="hamburger-button"
+            class="ml-80 cursor-pointer text-3xl text-white md:hidden"
+          >
+            &#9776;
+          </button>
+          <nav class="ml-96 mt-5 hidden space-x-8 text-end text-white md:block">
+            <a class="ml-52 font-bold hover:text-green-500" href="premium.html">
+              Premium
+            </a>
+            <a class="font-bold hover:text-green-500" href="support.html">
+              Support
+            </a>
+            <a class="font-bold hover:text-green-500" href="download.html">
+              Download
+            </a>
+            <span class="font-thin"> &#124; </span>
+            <a
+              class="font-bold text-slate-300 hover:text-green-500"
+              href="signup.html"
+            >
+              Sign Up
+            </a>
+            <a
+              class="font-bold text-slate-300 hover:text-green-500"
+              href="login.html"
+            >
+              Log in
+            </a>
+          </nav>
+        </div>
+      </section>
+      <section
+        id="mobile-menu"
+        class="justify-content-center absolute top-0 hidden w-full origin-top flex-col bg-black text-5xl"
+      >
+        <button class="self-end px-6 text-8xl text-white" type="button">
+          &times;
+        </button>
+        <nav
+          class="mb-9 flex min-h-screen flex-col items-center justify-between py-8 text-white"
+          aria-label="mobile"
+        >
+          <a class="hover:text-green-500" href="premium.html"> Premium </a>
+          <a class="hover:text-green-500" href="support.html"> Support </a>
+          <a class="hover:text-green-500" href="download.html"> Download </a>
+          <p>&#9135;</p>
+          <a class="text-slate-300 hover:text-green-500" href="signup.html">
+            Sign up
+          </a>
+          <a class="text-slate-300 hover:text-green-500" href="login.html">
+            Log in
+          </a>
+          <a class="mx-9 mt-5 flex w-20" href="#hero">
+            <img src="/img/Spotify_Logo_RGB_White.png" alt="Spotify logo" />
+          </a>
+        </nav>
+      </section>
+    </header>
+    <main>
+      <section id="hero" class="block bg-indigo-800 px-10 text-white">
+        <p class="py-8 text-3xl font-bold">
+          Get 3 months of Premium for <br />
+          <span> GH$ 51.00 </span>
+          GH$ 0.00
+        </p>
+        <p class="text-2xl">
+          Listen to music ad-free and offline, free untill 8 March 2023. Cancel
+          anytime.
+        </p>
+        <div class="py-10 sm:flex sm:flex-row">
+          <p class="sm: mb-10 inline-block">
+            <a
+              class="mr-9 rounded-3xl border-black bg-black p-3 text-center font-semibold hover:font-bold"
+              href="get.html"
+            >
+              GET 3 MONTHS FOR GH$0.00
+            </a>
+          </p>
+          <p class="inline-block">
+            <a
+              class="rounded-3xl border p-3 text-center font-semibold hover:font-bold"
+              href="plans.html"
+            >
+              VIEWS PLANS
+            </a>
+          </p>
+        </div>
+        <p class="mb-3 text-xs">
+          Individual plan only. GH$17.oo/month after.
+          <a href="terms.html"> Terms and conditions apply. </a>
+          Open only to users who haven't already tried <br />
+          Premium. Offer ends 31/12/2022.
+        </p>
+        <p class="pb-10 text-xs">
+          Saving clain based on normal price of Individual at GH$ 17.00 per
+          month.
+        </p>
+      </section>
+      <section>
+        <h2 class="py-10 text-center text-4xl font-bold">Why go Premium?</h2>
+        <div
+          class="gap-6 px-10 text-black lg:flex lg:items-center lg:self-center"
+        >
+          <p>
+            <figure>
+              <img class="w-2/3" src="/img/spotify03.png" alt="sp" />
+              <figcaption class="mb-10 text-xl font-bold">
+                Download music
+                <p class="text-xm font-light">Listen anywhere</p>
+              </figcaption>
+            </figure>
+          </p>
+          <p>
+            <figure>
+              <img src="/img/spotify04.png" alt="sp" />
+              <figcaption class="mb-10 text-xl font-bold">
+                Ad-free music listening.
+                <p class="text-xm font-light">Enjoy uninterrupted music</p>
+              </figcaption>
+            </figure>
+          </p>
+          <p>
+            <figure>
+              <img class="w-2/3" src="/img/spotify02.png" alt="sp" />
+              <figcaption class="m-4 mb-10 text-xl font-bold">
+                Play any song.
+                <p class="text-xm font-light">Even on mobile</p>
+              </figcaption>
+            </figure>
+          </p>
+          <p>
+            <figure>
+              <img class="w-2/3" src="/img/spotify01.png" alt="sp" />
+              <figcaption class="ml-6 text-xl font-bold">
+                Unlimited skips
+                <p class="text-xm ml-5 font-light">Just hit next.</p>
+              </figcaption>
+            </figure>
+          </p>
+        </div>
+      </section>
+      <section class="bg-gray-200">
+        <h2 class="py-10 text-center text-4xl font-bold">Pick your Premium?</h2>
+        <div class="flex-row justify-center self-center pb-20 lg:flex">
+          <div
+            class="mx-10 my-10 inline-block rounded-lg border-solid bg-white px-5 py-5 font-normal lg:mx-2 lg:my-0 lg:w-72"
+          >
+            <div>
+              <p
+                class="inline-block rounded-md bg-indigo-800 p-1 text-white lg:my-2"
+              >
+                3 months free
+              </p>
+              <p
+                class="inline-block rounded-md border border-indigo-800 p-1 text-indigo-800"
+              >
+                Prepaid plans available
+              </p>
+            </div>
+            <h3 class="text-2xl font-bold">Individual</h3>
+            <p>GH$ 17.00/month after offer period</p>
+            <p class="mb-5">1 account</p>
+            <hr class="text-2xl" />
+            <ol class="my-10 list-disc lg:leading-8">
+              <li>Ad-free music listening</li>
+              <li>Play anywhere - even offline</li>
+              <li>On-demand playback</li>
+            </ol>
+            <p
+              class="mb-5 inline-block rounded-3xl bg-black px-20 py-4 text-center font-semibold text-white"
+            >
+              <a class="whitespace-nowrap" href="get.html"> GET STARTED </a>
+            </p>
+            <p class="text-xs font-medium">
+              Individual plan only. Gh$ 17.00/month after.
+              <a class="decoration-double" href="terms.html">
+                Terms and conditions apply.
+              </a>
+              Open only to users who haven't already tried Premium. Offer ends
+              31/12/2022.
+            </p>
+          </div>
+          <div
+            class="mx-10 inline-block rounded-lg border-solid bg-white px-5 py-5 font-normal lg:mx-2 lg:w-72"
+          >
+            <div>
+              <p class="inline-block rounded-md bg-indigo-800 p-1 text-white">
+                3 months free
+              </p>
+            </div>
+            <h3 class="text-2xl font-bold">Duo</h3>
+            <p>GH$ 22.00/month after offer period</p>
+            <p class="mb-16">2 accounts</p>
+            <hr class="text-2xl" />
+            <ol class="my-10 list-disc leading-6">
+              <li>2 Premium accounts for a couple under one roof</li>
+              <li>Ad-free music listening, play offline, on-demand playback</li>
+            </ol>
+            <p
+              class="mb-5 inline-block rounded-3xl bg-black px-20 py-4 text-center font-semibold text-white"
+            >
+              <a class="whitespace-nowrap" href="get.html"> GET STARTED </a>
+            </p>
+            <p class="text-xs font-medium">
+              <a class="decoration-double" href="terms.html">
+                Terms and conditions apply.
+              </a>
+              1 month free not available for users who have already tried
+              premium.
+            </p>
+          </div>
+          <div
+            class="mx-10 my-10 inline-block rounded-lg border-solid bg-white px-5 py-5 font-normal lg:mx-2 lg:my-0 lg:w-72"
+          >
+            <div>
+              <p class="inline-block rounded-md bg-indigo-800 p-1 text-white">
+                3 months free
+              </p>
+            </div>
+            <h3 class="text-2xl font-bold">Individual</h3>
+            <p>GH$ 27.00/month after offer period</p>
+            <p class="mb-16">Up to 6 accounts</p>
+            <hr class="text-2xl" />
+            <ol class="my-10 list-disc leading-5">
+              <li>
+                6 Premium accounts for family members living under one roof
+              </li>
+              <li>Block explicit music</li>
+              <li>Ad-free music listening, play offline, on-demand playback</li>
+            </ol>
+            <p
+              class="mb-5 inline-block rounded-3xl bg-black px-20 py-4 text-center font-semibold text-white"
+            >
+              <a class="whitespace-nowrap" href="get.html"> GET STARTED </a>
+            </p>
+            <p class="text-xs font-medium">
+              <a class="decoration-double" href="terms.html">
+                Terms and conditions apply.
+              </a>
+              1 month free not available for users who have already tried
+              premium.
+            </p>
+          </div>
+          <div
+            class="mx-10 inline-block rounded-lg border-solid bg-white px-5 py-5 font-normal lg:mx-2 lg:w-72"
+          >
+            <div>
+              <p class="inline-block rounded-md bg-indigo-800 p-1 text-white">
+                3 months free
+              </p>
+              <p
+                class="inline-block rounded-md border border-indigo-800 p-1 text-indigo-800 lg:my-2"
+              >
+                Prepaid plans available
+              </p>
+            </div>
+            <h3 class="text-2xl font-bold">Student</h3>
+            <p>GH$ 8.50/month after offer period</p>
+            <p class="mb-10">1 account</p>
+            <hr class="text:2xl" />
+            <ol class="my-10 list-disc leading-5">
+              <li>Special discount for eligible students in university</li>
+              <li>Ad-free music listening</li>
+              <li>Play anywhere - even offline</li>
+              <li>On-demand playback</li>
+            </ol>
+            <p
+              class="mb-5 inline-block rounded-3xl bg-black px-20 py-4 text-center font-semibold text-white"
+            >
+              <a class="whitespace-nowrap" href="get.html"> GET STARTED </a>
+            </p>
+            <p class="text-xs font-medium">
+              Offer available only to students at an accredited higher education
+              institution.1 month free not available to users who already tried
+              Premium. Spotify Sudent Discount Offer.
+              <a class="decoration-double" href="terms.html">
+                Terms and conditions apply.
+              </a>
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-black px-10 py-10 text-xs font-bold">
+      <div class="justify-center lg:flex lg:flex-row lg:space-x-32">
+        <div>
+          <a class="mt-5 mb-10 flex w-20" href="#hero">
+            <img src="/img/Spotify_Logo_RGB_White.png" alt="Spotify logo" />
+          </a>
+        </div>
+        <div class="mb-10">
+          <p class="mb-3 text-xs text-slate-300">COMPANY</p>
+          <p class="mb-3 text-sm">
+            <a class="text-white hover:text-green-500" href="about.html">
+              About
+            </a>
+          </p>
+          <p class="mb-3 text-sm">
+            <a class="text-white hover:text-green-500" href="jobs.html">
+              Jobs
+            </a>
+          </p>
+          <p class="text-sm">
+            <a class="text-white hover:text-green-500" href="record.html">
+              For the Record
+            </a>
+          </p>
+        </div>
+        <div class="mb-10">
+          <p class="mb-3 text-xs text-slate-300">COMMUNITIES</p>
+          <p class="mb-3 text-sm">
+            <a class="text-white hover:text-green-500" href="artists.html">
+              For Artists
+            </a>
+          </p>
+          <p class="mb-3 text-sm">
+            <a class="text-white hover:text-green-500" href="developers.html">
+              Developers
+            </a>
+          </p>
+          <p class="mb-3 text-sm">
+            <a class="text-white hover:text-green-500" href="advert.html">
+              Advertising
+            </a>
+          </p>
+          <p class="mb-3 text-sm">
+            <a class="text-white hover:text-green-500" href="investors.html">
+              Investors
+            </a>
+          </p>
+          <p class="text-sm">
+            <a class="text-white hover:text-green-500" href="vendors.html">
+              Vendors
+            </a>
+          </p>
+        </div>
+        <div class="mb-10">
+          <p class="mb-3 text-xs text-slate-300">USEFUL LINKS</p>
+          <p class="mb-3 text-sm">
+            <a class="text-white hover:text-green-500" href="support.html">
+              Support
+            </a>
+          </p>
+          <p class="mb-3 text-sm">
+            <a class="text-white hover:text-green-500" href="web.html">
+              Web Player
+            </a>
+          </p>
+          <p class="text-sm">
+            <a class="text-white hover:text-green-500" href="mobile.html">
+              Free Mobile App
+            </a>
+          </p>
+        </div>
+        <div class="flex flex-row lg:justify-end">
+          <a
+            class="hover:text-green-500"
+            href="https://instagram.com/spotify"
+            target="_blank"
+          >
+            <img
+              class="rounded-full bg-slate-900 p-2"
+              src="/img/instawhite.png"
+              alt="instagram"
+            />
+          </a>
+          <a
+            class="hover:text-green-500"
+            href="https://twitter.com/spotify"
+            target="_blank"
+          >
+            <img
+              class="mx-3 inline rounded-full bg-slate-900 p-2"
+              src="/img/twitterwhite.png"
+              alt="Twitter"
+            />
+          </a>
+          <a
+            class="hover:text-green-500"
+            href="https://www.facebook.com/Spotify"
+            target="_blank"
+          >
+            <img
+              class="rounded-full bg-slate-900 p-2"
+              src="/img/facewhite.png"
+              alt="Facebook"
+            />
+          </a>
+        </div>
+      </div>
+      <aside class="text-xs text-slate-300">
+        <div class="flex flex-row lg:space-x-96">
+          <p class="space-x-4">
+            <span>
+              <a class="hover:text-green-500" href="legal.html"> legal </a>
+            </span>
+            <span>
+              <a class="hover:text-green-500" href="privacy.html">
+                Privacy Center
+              </a>
+            </span>
+            <span>
+              <a class="hover:text-green-500" href="policy.html">
+                Privacy Policy
+              </a>
+            </span>
+            <span>
+              <a class="hover:text-green-500" href="cookies.html"> Cookies </a>
+            </span>
+            <span>
+              <a class="hover:text-green-500" href="about.html"> About Ads </a>
+            </span>
+          </p>
+          <p class="sm:text-end lg:pl-80">
+            <span class="block">
+              <a class="hover:text-green-500" href="ghana.com"> 🌍 Ghana </a>
+            </span>
+            <span class="sm:whitespace-nowrap"> &copy; 2022 Spotify AB </span>
+          </p>
+        </div>
+      </aside>
+    </footer>
+  </body>
+</html>
