@@ -2,7 +2,14 @@
 module.exports = {
   content: ['*.html',],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        hex: {
+          LIGHT: '#0d72ea',
+          DEFAULT: '#280295'
+        },
+      },
+    },
   },
   plugins: [],
 }
